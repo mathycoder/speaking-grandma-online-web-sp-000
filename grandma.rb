@@ -15,11 +15,11 @@
 def speak_to_grandma(what_you_say)
   if what_you_say == "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
-  elsif 
-  
-  
+  elsif what_you_say.match(/[a-z]/)
+    puts "HUH?! SPEAK UP, SONNY!"
+ 
   end
-  puts "HUH?! SPEAK UP, SONNY!"
+  
 end 
 
 speak_to_grandma("I love you")
