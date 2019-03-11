@@ -16,7 +16,7 @@ def speak_to_grandma(what_you_say)
   if what_you_say == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
   elsif what_you_say.match(/[a-z]/)
-    puts "HUH?! SPEAK UP, SONNY!"
+    return "HUH?! SPEAK UP, SONNY!"
  
   end
   
